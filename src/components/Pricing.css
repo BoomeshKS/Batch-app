@@ -1,0 +1,30 @@
+/* src/components/Pricing.css */
+.pricing {
+    background-color: #f9f9f9;
+  }
+  
+  .pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    background-color: #e0e0e0;
+    padding: 1em;
+    margin: 1em;
+    flex: 1 1 calc(33.333% - 2em);
+    box-sizing: border-box;
+    transition: 1s;
+  }
+
+  .plan:hover{
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 768px) {
+    .plan {
+      flex: 1 1 calc(100% - 2em);
+    }
+  }
+  

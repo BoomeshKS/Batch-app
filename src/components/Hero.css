@@ -1,0 +1,39 @@
+.hero {
+    background-color: #f4f4f4;
+    padding: 4em 1em;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero p {
+    font-size: 1.25em;
+    margin-bottom: 1em;
+  }
+  
+  .hero .buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2em;
+    }
+  
+    .hero p {
+      font-size: 1em;
+    }
+  
+    .hero .buttons {
+      flex-direction: column;
+    }
+  
+    .hero .buttons button {
+      margin-bottom: 0.5em;
+    }
+  }
+  
